@@ -1,15 +1,18 @@
 import { useState, useEffect } from 'react';
 import Weather from './Components/Weather.jsx';
-import { } from 'reactstrap';
-import Weather from './Components/Weather.jsx'
-import { } from "reactstrap";
+import { InputGroup, InputGroupAddon, Input, Button } from 'reactstrap';
 
 
 function App() {
 
   return (
     <div className="App">
-      <Weather />
+    <main>
+        <InputGroup>
+          <Input placeholder="Enter Zip Code" />
+          <InputGroupAddon addonType="append"><Button>Search</Button></InputGroupAddon>
+        </InputGroup>
+      </main>
     </div>
   );
 }
