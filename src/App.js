@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import Weather from './Components/Weather.jsx';
-import { } from 'reactstrap';
-import Weather from './Components/Weather.jsx'
-import { } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 
 
 function App() {
